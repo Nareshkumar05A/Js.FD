@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="h.css">
+    <script src="h.js"></script>
+</head>
+<body>
+    <div class="ful">
+        <h1>cm to inch</h1>
+        <input type="phone" id="input">
+        <div>
+        <button class="button" onclick="method()">convert to inch</button>
+    </div>
+    <!-- <div class="" id="result"></div> -->
+    </div>
+    <script>
+        function method(){
+    let cmval=Number(document.getElementById("input").value)
+    let inchval=cmval/2.54
+    let result=document.getElementById("result")
+    result.innerHTML=inchval.toFixed(2)
+}
+    </script>
+</body>
+</html>
