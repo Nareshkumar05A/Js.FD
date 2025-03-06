@@ -87,7 +87,7 @@ console.log(arr)
 
 
 //Array to string
-let strw=Array.join()
+cdlet strw=Array.join()
 console.log(strw)
 
 //String to Array
