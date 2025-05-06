@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body{
+    min-width: 100vm;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ful{
+    background-color:antiquewhite;
+    width: 20rem;
+    height: 20rem;
+    padding: 50px;
+    
+}
+h1{
+    margin-top: 20px;
+    padding: 30px;
+}
+input{
+    padding: 5px;
+   width: 100%;
+}
+button{
+    padding: 5%;
+    margin-top:30px;
+   margin-left: 50px;
+    
+}
